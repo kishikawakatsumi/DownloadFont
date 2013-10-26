@@ -108,8 +108,6 @@
 		} else if (state == kCTFontDescriptorMatchingWillBeginDownloading) {
             NSLog(@"%@", @"kCTFontDescriptorMatchingWillBeginDownloading");
             return (bool)NO;
-		} else if (state == kCTFontDescriptorMatchingDownloading) {
-            NSLog(@"%@", @"kCTFontDescriptorMatchingDownloading");
 		}
         
 		return (bool)YES;
