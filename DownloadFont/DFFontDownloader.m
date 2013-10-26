@@ -82,7 +82,7 @@
     });
 }
 
-- (void)loadDownloadedFontNamed:(NSString *)fontName
+- (void)registerDownloadedFontNamed:(NSString *)fontName
 {
     if (!fontName) {
         return;

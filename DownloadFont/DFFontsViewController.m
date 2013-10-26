@@ -49,7 +49,7 @@ void FontManagerRegisteredFontsChanged(CFNotificationCenterRef center,
     
     NSDictionary *downloadedFonts = [[NSUserDefaults standardUserDefaults] valueForKey:DFDownloadedFontsKey];
     for (NSString *downloadedFontName in downloadedFonts.allKeys) {
-        [self.downloader loadDownloadedFontNamed:downloadedFontName];
+        [self.downloader registerDownloadedFontNamed:downloadedFontName];
     }
 }
 

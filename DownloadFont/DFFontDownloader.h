@@ -13,7 +13,7 @@
 @property (nonatomic, weak) id delegate;
 
 - (void)downloadFontNamed:(NSString *)fontName;
-- (void)loadDownloadedFontNamed:(NSString *)fontName;
+- (void)registerDownloadedFontNamed:(NSString *)fontName;
 
 @end
 
